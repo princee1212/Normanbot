@@ -1,0 +1,2 @@
+# Normanbot
+Whale alert bot
