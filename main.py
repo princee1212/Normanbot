@@ -25,7 +25,7 @@ seen_hashes = set()
 # ── Telegram ───────────────────────────────────────────────────────────────────
 
 def send_telegram(msg):
-url = f”https://api.telegram.org/bot{8793259832:AAHUmarr6U7JL4elvtdffb0kjr9ZAok-860}/sendMessage”
+url = f”https://api.telegram.org/bot{BOT-TOKEN}/sendMessage”
 try:
 response = requests.post(url, data={
 “chat_id”: CHAT_ID,
